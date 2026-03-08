@@ -1,18 +1,27 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "b",
+  "keywords": [],
+  "homepage": "https://github.com/Sudam496panda/backend#readme",
+  "bugs": {
+    "url": "https://github.com/Sudam496panda/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sudam496panda/backend.git"
+  },
+  "license": "ISC",
+  "author": "4",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon index.js"
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
     "express": "^5.1.0",
     "mongoose": "^9.0.0"
   },
